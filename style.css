@@ -1,30 +1,30 @@
-/* Aditya Hanif — personal site. Vanilla CSS, no build step. */
+/* Aditya Hanif — personal site. Vanilla CSS, no build step. Black & white theme. */
 :root {
-  --bg: #0e0d17;
-  --bg-alt: #12101d;
-  --surface: #17141f;
-  --surface-2: #1d1a2b;
-  --border: #2a2638;
-  --text: #e8e6df;
-  --muted: #a9a6b5;
-  --accent: #c9a86a;
-  --accent-ink: #17130a;
-  --accent-2: #968bd8;
+  --bg: #000000;
+  --bg-alt: #0a0a0a;
+  --surface: #111111;
+  --surface-2: #1c1c1c;
+  --border: #2b2b2b;
+  --text: #ffffff;
+  --muted: #a3a3a3;
+  --accent: #ffffff;
+  --accent-ink: #000000;
+  --accent-2: #d4d4d4;
   --radius: 16px;
   --max: 1080px;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f6f5f0;
-    --bg-alt: #efeee7;
+    --bg: #ffffff;
+    --bg-alt: #f5f5f5;
     --surface: #ffffff;
-    --surface-2: #f3f1ea;
-    --border: #ddd9cc;
-    --text: #1d1a24;
-    --muted: #5d5a6b;
-    --accent: #8a6d2f;
+    --surface-2: #f0f0f0;
+    --border: #d9d9d9;
+    --text: #000000;
+    --muted: #595959;
+    --accent: #000000;
     --accent-ink: #ffffff;
-    --accent-2: #5d50b8;
+    --accent-2: #262626;
   }
 }
 * { box-sizing: border-box; }

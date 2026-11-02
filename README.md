@@ -1,30 +1,28 @@
 # adityahanif.github.io
 
-Website pribadi Aditya Hanif — live di https://adityahanif.github.io/
+Aditya Hanif's personal website — live at https://adityahanif.github.io/
 
-Satu halaman statis murni HTML + CSS + JavaScript vanilla (tanpa framework, tanpa build step):
+A single static page in pure HTML + CSS + vanilla JavaScript (no framework, no build step), in English, with a black & white theme (dark by default, inverted automatically in light mode via `prefers-color-scheme`):
 
-- **Hero** — nama, peran (Data Science • Web Tools Builder • Digital Marketing), tautan sosial
-- **Tentang** — latar belakang dan pendekatan kerja
-- **Keahlian** — daftar skill
-- **Portofolio** — 8 proyek nyata dengan filter kategori (Web App / Desktop / Tools & Ekstensi) dan tautan demo live / GitHub yang terverifikasi
-- **Kontak** — email dan LinkedIn
+- **Hero** — name, roles (Data Science • Web Tools Builder • Digital Marketing), social links
+- **About** — background and working approach
+- **Skills** — skill chips
+- **Portfolio** — 8 original projects (no forks) with a category filter (Web Apps / Desktop / Data / Tools & Extensions) and verified live-demo / GitHub links
+- **Contact** — email and LinkedIn
 
-Mode gelap lembut secara default dan mode terang otomatis mengikuti `prefers-color-scheme` perangkat.
-
-## Menjalankan lokal
+## Run locally
 
 ```bash
 python3 -m http.server 8000
-# buka http://localhost:8000
+# open http://localhost:8000
 ```
 
-## Struktur
+## Structure
 
 ```
-index.html   → seluruh konten (portofolio ditulis langsung di HTML agar tetap tampil tanpa JS)
-style.css    → semua gaya
-script.js    → tahun footer, menu mobile, filter portofolio
+index.html   → all content (portfolio is written directly in HTML so it renders without JS)
+style.css    → all styling
+script.js    → footer year, mobile menu, portfolio filter
 ```
 
-Catatan: naikkan query `?v=` pada `style.css` / `script.js` di `index.html` setiap kali file itu diubah, agar browser pengunjung tidak memakai salinan lama dari cache GitHub Pages.
+Note: bump the `?v=` query on `style.css` / `script.js` in `index.html` whenever those files change, so visitors' browsers don't serve a stale cached copy from GitHub Pages.
